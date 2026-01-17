@@ -1,0 +1,107 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f0f8f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background: #a8d5ba;
+  color: #1a3c30;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #d4eacd, #a8d5ba);
+  color: #1a3c30;
+  margin-bottom: 30px;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+}
+
+/* Input Section */
+.input-section {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.input-section h2 {
+  margin-bottom: 20px;
+  color: #2a7f62;
+  font-size: 1.8rem;
+}
+
+.input-section select {
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  border: 1px solid #c4d1c1;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input-section select:focus {
+  border-color: #2a7f62;
+}
+
+.input-section button {
+  padding: 10px 25px;
+  margin-top: 15px;
+  background-color: #2a7f62;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.input-section button:hover {
+  background-color: #1a5a45;
+}
+
+/* Result Box */
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #d4eacd;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #1a3c30;
+  font-size: 1.1rem;
+}
+
+/* Popular Crops Section */
+.crops-info {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+

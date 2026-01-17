@@ -1,0 +1,43 @@
+
+.nav-brand {
+  background: #0f172a;   
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+}
+
+.nav-section {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.red {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.red:hover {
+  background: #22c55e;   /* green */
+  color: #0f172a;
+}
+
+.red:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f0f8f5; /* soft greenish background */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+  background: #a8d5ba; /* soft green header */
+  color: #1a3c30;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Main Contact Section */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 40px auto;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.contact-info,
+.contact-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  flex: 1 1 400px;
+}
+
+/* Contact Info */
+.contact-info h2 {
+  color: #1a3c30;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.contact-info ul {
+  list-style: none;
+}
+
+.contact-info li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.contact-info a {
+  color: #2a7f62;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form */
+.contact-form h2 {
+  color: #1a3c30;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #c4d1c1;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #2a7f62;
+}
+
+.contact-form button {
+  background-color: #2a7f62;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #1a3c30;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #a8d5ba;
+  color: #1a3c30;
+  margin-top: 40px;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
